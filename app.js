@@ -5,7 +5,7 @@ app.use(express.json())
 
 app.set('port', process.env.port || 8080 )
 
-const studentRouter = require('./routes/students')
+const studentsRouter = require('./routes/students')
 
 const gradesRouter = require('./routes/grades')
 
